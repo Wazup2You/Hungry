@@ -32,6 +32,7 @@ export const LocationContextProvider = ({ children }) => {
         setError(err);
       });
   }, [keyword]);
+
   return (
     <LocationContext.Provider
       value={{
