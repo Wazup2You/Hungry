@@ -13,7 +13,7 @@ export const AccountScreen = ({ navigation }) => {
   return (
     <AccountBackground>
       <AccountCover />
-      <Title>Meals To Go</Title>
+      <Title>Hungry</Title>
       <AccountContainer>
         <AuthButton
           icon="lock-open-outline"
